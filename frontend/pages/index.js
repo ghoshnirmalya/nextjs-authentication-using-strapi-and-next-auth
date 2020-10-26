@@ -1,11 +1,9 @@
 import { getSession, signIn, signOut } from "next-auth/client";
-import Head from 'next/head';
+import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 
-const IndexPage = ({
-  session,
-}) => {
+const IndexPage = ({ session }) => {
   const signInButtonNode = () => {
     if (session) {
       return false;
@@ -55,11 +53,9 @@ const IndexPage = ({
           {signOutButtonNode()}
           {signInButtonNode()}
         </div>
-        <div className="text">
-          You aren't authorized to view this page
-        </div>
+        <div className="text">You aren't authorized to view this page</div>
       </div>
-    )
+    );
   }
 
   return (
@@ -71,9 +67,7 @@ const IndexPage = ({
         {signOutButtonNode()}
         {signInButtonNode()}
       </div>
-      <div className="text">
-        Hello world
-      </div>
+      <div className="text">Hello world</div>
     </div>
   );
 };

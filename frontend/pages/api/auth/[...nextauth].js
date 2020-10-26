@@ -1,4 +1,3 @@
-
 import NextAuth from "next-auth";
 import Providers from "next-auth/providers";
 
@@ -40,7 +39,6 @@ const options = {
   },
 };
 
-const Auth = (req, res) =>
-  NextAuth(req, res, options);
+const Auth = (req, res) => NextAuth(req, res, options);
 
 export default Auth;

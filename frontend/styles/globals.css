@@ -23,12 +23,12 @@ a {
   flex-direction: column;
 }
 
-.navbar button{
+.navbar button {
   padding: 10px 30px;
   font-size: 16px;
 }
 
-.navbar button:hover{
+.navbar button:hover {
   cursor: pointer;
 }
 
