@@ -1,0 +1,12 @@
+**/.DS_STORE
+node_modules
+**/node_modules
+.next
+**/.env
+out
+**/*.pem
+.vercel
+**/.cache
+backend/data
+backend/build
+backend/db

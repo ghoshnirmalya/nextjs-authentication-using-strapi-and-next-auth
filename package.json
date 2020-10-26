@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "dev:frontend": "cd frontend && yarn dev",
+    "build:frontend": "cd frontend && yarn build",
+    "export:frontend": "cd frontend && yarn export",
+    "start:frontend": "cd frontend && yarn start"
+  },
+  "devDependencies": {
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.2",
+    "prettier": "^2.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,css,md,tsx,ts}": [
+      "prettier --write"
+    ]
+  }
+}
