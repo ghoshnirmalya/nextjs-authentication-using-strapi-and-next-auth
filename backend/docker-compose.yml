@@ -21,7 +21,6 @@ services:
   db:
     container_name: postgres
     image: postgres
-    restart: always
     volumes:
       - ./db:/var/lib/postgresql/data
     ports:

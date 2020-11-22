@@ -6,11 +6,11 @@
 
 ## Packages
 
-### 1. [**Frontend**](https://github.com/ghoshnirmalya/nextjs-strapi-boilerplate/tree/master/frontend): Next.js application
+### 1. [**Frontend**](https://github.com/ghoshnirmalya/nextjs-authentication-using-strapi-and-next-auth/tree/master/frontend): Next.js application
 
 This application is the primary user-facing application. Once it’s up and running (see Development section), it’s available on http://localhost:3000/.
 
-### 2. [**Backend**](https://github.com/ghoshnirmalya/nextjs-strapi-boilerplate/tree/master/backend): Dockerized Strapi application
+### 2. [**Backend**](https://github.com/ghoshnirmalya/nextjs-authentication-using-strapi-and-next-auth/tree/master/backend): Dockerized Strapi application
 
 [Strapi](https://strapi.io/) is the leading open-source headless CMS. It’s 100% Javascript, fully customizable and developer-first.
 
@@ -19,7 +19,7 @@ This application is the primary user-facing application. Once it’s up and runn
 ### 1. **Clone the application**
 
 ```sh
-git clone https://github.com/ghoshnirmalya/nextjs-strapi-boilerplate
+git clone https://github.com/ghoshnirmalya/nextjs-authentication-using-strapi-and-next-auth
 ```
 
 ### 2. **Install necessary dependencies for the frontend application**
@@ -66,7 +66,7 @@ We need to start Docker and then run the above command which will change the cur
 
 ## Other interesting repositories
 
-1. [Strapi Next.js Boilerplate](https://github.com/ghoshnirmalya/nextjs-strapi-boilerplate)
+1. [Strapi Next.js Boilerplate](https://github.com/ghoshnirmalya/nextjs-authentication-using-strapi-and-next-auth)
 2. [Hasura Next.js Boilerplate](https://github.com/ghoshnirmalya/nextjs-hasura-boilerplate)
 3. [Hasura Next.js Trello Clone](https://github.com/ghoshnirmalya/nextjs-hasura-trello-clone)
 4. [React Search Box](https://github.com/ghoshnirmalya/react-search-box)
